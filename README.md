@@ -7,3 +7,5 @@ fast turn-on and turn-off of the power MOSFET. To address this
 requirement, this paper presents an on-chip resonant gate driver
 with charge-recycling mechanism, implemented in a 180nm
 CMOS process. 
+
+We are currently pursuing this idea to integrate it with the buck converter by using the high side MOSFET capacitor as the reservoir capacitor in the current circuit and adding a bootstrap capacitor (Cboot) which allows high side NMOS switching in Buck-Converter.
